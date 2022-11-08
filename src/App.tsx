@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/App.css';
-import HomePage from "./pages/home";
+import Home from "./pages/Home";
 
 
 
@@ -8,7 +8,7 @@ function App() {
     
   return (
     <div className="App">
-      <HomePage />
+      <Home />
     </div>
   );
 }

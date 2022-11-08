@@ -1,6 +1,9 @@
 .App {
-  text-align: center;
   text-decoration: none;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,5 +38,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 768px) {
+  .index-page {
+    width: auto;
   }
 }
