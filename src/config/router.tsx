@@ -1,11 +1,16 @@
-import { createBrowserRouter } from "react-router-dom";
+import {createBrowserRouter} from "react-router-dom";
 // import HomePage from "../pages/home";
 import App from "../App";
+import Fabric from "../pages/Fabric";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <App />,
+        element: <App/>,
+    },
+    {
+        path: "1",
+        element: <Fabric/>
     },
     {
         path: "404",
@@ -13,4 +18,4 @@ const router = createBrowserRouter([
     },
 ]);
 
-export { router };
+export {router};
