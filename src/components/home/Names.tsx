@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import '../../styles/common.scss'
 import styles from '../../styles/Home.module.scss';
 
 interface AppProps {
@@ -19,7 +20,6 @@ function Names({names}: AppProps) {
                                 className={['mr-2', 'op-5'].join(' ')}>{index + 1 < 10 ? `00${index + 1}` : index + 1 <= 99 ? `0${index + 1}` : `${index + 1}`}</span>
                             <span>{name}</span>
                         </Link>
-
                     </div>)
                 })
             }
